@@ -1,0 +1,17 @@
+{
+  "name": "cardwizards",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/input.css -o ./assets/css/style.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./assets/css/style.css"
+  },
+  "author": "MkTemplateWizard",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.3"
+  }
+}
